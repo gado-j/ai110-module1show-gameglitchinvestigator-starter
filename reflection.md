@@ -8,19 +8,30 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+- It ran well without difficulty, all features seemed to function correctly at  
+first glance
+- The range for normal mode is higher than the range for hard mode which defeats the purpose of it being 'hard'.
+- The game does not reset when user starts a new game
+- Hints are incorrect, telling the user to pick a lower number even tho it is already lower than the secret number, and vice versa for higher numbers.
+
 ---
 
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
-- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
-- Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+- I used Claude
 
+- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+- it suggested to reduced the range for normal and increase the range for hard, which is correct.
+
+- Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+- none
 ---
 
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+we ran test cases and then i tried them on the app itself. 
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
